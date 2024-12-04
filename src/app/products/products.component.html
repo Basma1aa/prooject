@@ -1,0 +1,18 @@
+<div class="container my-4">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"> 
+        <ng-container *ngFor="let item of productList">
+            <div class="col">
+                <div class="card h-100" style="border: none;">
+                    <img src="{{item.image}}" alt="" class="card-img-top img-fixed-size" />
+                    <div class="card-body" style="background-color: #E2F1E7;">
+                        <h5 class="card-title" style="color: #243642;">{{item.title}}</h5>
+                        <p class="card-text" style="color: #387478;"><strong>Price:</strong> ${{item.price}}</p>
+                        <p class="card-text" style="color: #387478;">Category: {{item.category}}</p>
+                        <p class="card-text description">{{item.description}}</p>
+                        <button class="btn btn-custom" (click)="addToCart(item)">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

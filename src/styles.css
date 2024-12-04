@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+    background-color: #674636; /* Dark teal */
+    color: #E2F1E7; /* Light text color */
+}
+
+/* Optional for buttons or accents */
+.btn {
+    background-color: #387478; /* Medium teal */
+    color: #E2F1E7; /* Light text color */
+}
+
+

@@ -1,0 +1,21 @@
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #387478; /* Change background color on hover */
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #629584; /* Change link color on hover */
+}
+
+.badge {
+    background-color: #E2F1E7; /* Badge background color */
+    color: #243642; /* Badge text color */
+    font-weight: bold;
+}

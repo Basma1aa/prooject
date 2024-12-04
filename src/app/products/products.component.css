@@ -1,0 +1,47 @@
+.description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 4.5em;
+}
+
+.img-fixed-size {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img-fixed-size {
+    height: 200px;
+    /* Set a fixed height for images */
+    object-fit: cover;
+    /* Ensure images maintain aspect ratio */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.btn-custom {
+    background-color: #387478;
+    /* Button background color */
+    color: #E2F1E7;
+    /* Button text color */
+    border: none;
+    /* Remove default border */
+}
+
+.btn-custom:hover {
+    background-color: #629584;
+    /* Button hover color */
+}
